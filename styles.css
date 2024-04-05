@@ -72,26 +72,54 @@ body, html {
     grid-template-rows: 1fr 1fr;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    align-items: center;
+    height: 120px;
+    padding: 10px;
+}
+
+.header button {
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    margin: 10px;
+    background-color: #0284c7;
+    color: white;
+    font-weight: 600;
+
 }
 
 .searchBar {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    
 }
 
 .alerts {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    margin-left: 50px;
+}
+
+.alerts img {
+    height: 30px;
 }
 
 .smallAvatar {
     grid-column: 3 / 4;
     grid-row: 1 / 2;  
+    border-radius: 50px;
+    width: 55px;
+    height: 55px;
 }
+
+
 
 .userName {
     grid-column: 4 / 5;
     grid-row: 1 / 2;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .greeting {
@@ -149,6 +177,6 @@ grid-row: 2 / 3;
 
 .trending {
     border: solid 1px black;
-    height: 350px;
-    width: 180px;
+    height: 260px;
+    width: 200px;
 }
