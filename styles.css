@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-family: sans-serif
 }
 
 .container {
@@ -117,4 +118,37 @@ grid-row: 2 / 3;
    grid-column: 2 / 3;
    grid-row: 2 / 3;
    background-color: #e2e8f0;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding: 25px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.projectCard {
+    border: solid 1px black;
+    width: 250px;
+    height: 180px;
+}
+
+.rightBar {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+}
+
+.announcements {
+    border: solid 1px black;
+    height: 260px;
+    width: 200px;
+}
+
+.trending {
+    border: solid 1px black;
+    height: 350px;
+    width: 180px;
 }
