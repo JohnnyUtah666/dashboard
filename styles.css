@@ -99,6 +99,11 @@ body, html {
     margin-left: 60px;
 }
 
+.searchLabel {
+    position: absolute;
+    top: 30px;
+}
+
 .alerts {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
