@@ -114,6 +114,9 @@ body, html {
 
 .alerts img {
     height: 30px;
+    position: relative;
+    
+    left: 85px;
 }
 
 .smallAvatar {
@@ -122,6 +125,7 @@ body, html {
     border-radius: 50px;
     width: 55px;
     height: 55px;
+    padding-left: 60px;
 }
 
 
