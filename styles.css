@@ -19,9 +19,7 @@ body, html {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     background-color: #0284c7;
-    color: white;
-    align-items: center;
-    justify-items: center;
+    color: white;   
 }
 
 .sideBarItem {
@@ -29,13 +27,14 @@ body, html {
     grid-column: 1 / 2;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    justify-self: start;
+    justify-self: start; 
 }
 
 .sideBarIcon {
 align-self: center;
 justify-self: center;
 width: 25px;
+grid-column: 1 / 2;
 fill: white;
 }
 
@@ -48,6 +47,7 @@ fill: white;
 align-self: center;
 justify-self: center;
 margin-left: 5px;
+grid-column:  2 / 3;
 }
 
 #logo {
