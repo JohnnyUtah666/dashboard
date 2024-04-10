@@ -198,11 +198,17 @@ grid-template-rows: 1fr 1fr;
 }
 
 .projectCard {
-    border: solid 1px black;
     border-radius: 6px;
-    width: 250px;
+    width: 300px;
     height: 180px;
     background-color:white;
+    padding: 5px 5px 5px 8px;
+    border-left: solid 10px gold;
+    box-shadow: 0 4px 2px -2px lightgray;
+}
+
+.projectCard div {
+    color: grey;
 }
 
 .rightBar {
@@ -212,14 +218,20 @@ grid-template-rows: 1fr 1fr;
 }
 
 .announcements {
-    border: solid 1px black;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 4px 2px -2px lightgray;
+    padding: 5px 5px 5px 8px;
     height: 260px;
     width: 200px;
     margin-left: 30px;
 }
 
 .trending {
-    border: solid 1px black;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 4px 2px -2px lightgray;
+    padding: 5px 5px 5px 8px;
     height: 260px;
     width: 200px;
     margin-left: 30px;
