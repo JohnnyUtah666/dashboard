@@ -24,6 +24,30 @@ body, html {
 
 }
 
+.sideBarItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.sideBarIcon {
+align-self: center;
+justify-self: center;
+width: 30px;
+fill: white;
+}
+
+.sideBarIcon img {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+
+.sideBarText {
+align-self: center;
+justify-self: center;
+margin-left: 5px;
+}
+
 .logo {
     grid-row: 1 / 3;
     
