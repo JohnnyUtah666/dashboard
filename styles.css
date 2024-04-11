@@ -273,7 +273,18 @@ grid-template-rows: 1fr 1fr;
    background-color: #e2e8f0;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   padding: 25px;
+   padding: 50px 25px 25px 25px;
+}
+
+.mainContent label {
+    font-weight: 600;
+    color: rgb(64, 64, 64);
+}
+
+#projectsLabel {
+    position: absolute;
+    top: 160px;
+
 }
 
 .projects {
