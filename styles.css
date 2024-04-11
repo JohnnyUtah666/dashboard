@@ -8,7 +8,7 @@ body, html {
     height: 100vh;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 150px 4fr;
     grid-template-rows: 1fr 5fr;
 }
 
@@ -135,8 +135,13 @@ grid-column:  2 / 3;
 }
 
 .searchLabel {
-    position: absolute;
-    top: 30px;
+    position: fixed;
+    top: 23px;
+    left: 185px;
+}
+
+.searchLabel img {
+    width: 30px;
 }
 
 .alerts {
