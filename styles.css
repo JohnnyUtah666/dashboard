@@ -301,6 +301,28 @@ grid-template-rows: 1fr 1fr;
     padding: 5px 5px 5px 8px;
     border-left: solid 10px gold;
     box-shadow: 0 4px 2px -2px lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.projectCard h4 {
+grid-column: 1 / 2;
+grid-row: 1 / 3;
+}
+
+.cardText {
+grid-column: 1 / 3;
+grid-row: 2 / 3;
+}
+
+.controlIcons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    margin-top: 30px;
+    margin-left: 25px;
 }
 
 .controlIcon img {
